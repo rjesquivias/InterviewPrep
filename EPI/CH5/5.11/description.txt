@@ -1,0 +1,5 @@
+This problem is concerned with rectangles whose sides are parallel to the X-axe and Y-axis. ( See figure 5.2 )  Write a program which tests if two rectangles have a nonempty intersection.  If the intersection is nonempty, return the rectangle formed by their intersection.
+
+struct Rectangle {
+  int x, y, width, height;
+};
